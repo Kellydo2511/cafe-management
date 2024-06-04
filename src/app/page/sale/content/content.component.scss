@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(25% - 10px);
+    margin-bottom: 20px; 
+}
+
+@media (max-width: 768px) {
+    .card {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: calc(100% - 10px);
+    }
+  }
